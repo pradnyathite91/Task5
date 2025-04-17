@@ -29,34 +29,34 @@ Task5/ ├── deployment.yaml # Defines the Deployment for the application �
 
    ```bash
    kubectl apply -f deployment.yaml
-
+```
 3. **Apply the Service:**
 
   ```bash
   kubectl apply -f service.yaml
-
+ ```
 4. **Verify the Pods:**
 
    ```bash
    kubectl get pods
-
+  ```
 5. **Verify the Services:**
 
    ```bash
    kubectl get services
-
+    ```
 6. **Scale the Deployment (e.g., to 3 replicas):**
 
    ```bash
    kubectl scale deployment <deployment-name> --replicas=3
-
+  ```
 7. **Describe the Pod for Detailed Information:**
 
    ```bash 
    kubectl describe pod <pod-name>
-
+   ```
 8. **View Logs of a Pod:**
 
   ```bash
   kubectl logs <pod-name>
-
+  ```
